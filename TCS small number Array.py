@@ -4,10 +4,10 @@ class Solution:
             return "No Elements found in array"
         if len(number) ==1:
             return number[0]
-        big=number[0]
+        small=number[0]
         for index in range(1,len(number)):
             if number[index] < big:
-                big=number[index]
+                small=number[index]
         return big
 Array=[2,5,1,3,0]
 Array1=[63,32,59,68,100,121,54,78]
