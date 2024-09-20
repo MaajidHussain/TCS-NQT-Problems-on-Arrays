@@ -8,7 +8,7 @@ class Solution:
         for index in range(1,len(number)):
             if number[index] < big:
                 small=number[index]
-        return big
+        return small
 Array=[2,5,1,3,0]
 Array1=[63,32,59,68,100,121,54,78]
 Array2=[12]
